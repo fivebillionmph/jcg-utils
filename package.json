@@ -1,0 +1,19 @@
+{
+  "name": "jcg-utils",
+  "version": "1.0.0",
+  "description": "Utility functions for node projects",
+  "main": "jcg-utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fivebillionmph/jcg-utils.git"
+  },
+  "author": "James Go",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fivebillionmph/jcg-utils/issues"
+  },
+  "homepage": "https://github.com/fivebillionmph/jcg-utils#readme"
+}
