@@ -1,10 +1,8 @@
-function deepObjectCopy(obj) {
+exports.deepObjectCopy = function(obj) {
     return JSON.parse(JSON.stringify(obj));
-}
+};
 
-function floatRegex(n) {
+exports.floatRegex = function(n) {
     var regex = /^([0-9]*[.])?[0-9]*$/;
     return regex.test(n);
-}
-
-export { deepObjectCopy, floatRegex };
+};
