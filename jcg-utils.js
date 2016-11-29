@@ -1,5 +1,7 @@
+var cloneDeep = require("lodash").cloneDeep;
+
 exports.deepObjectCopy = function(obj) {
-    return JSON.parse(JSON.stringify(obj));
+    return cloneDeep(obj);
 };
 
 exports.floatRegex = function(n) {

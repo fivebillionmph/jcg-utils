@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fivebillionmph/jcg-utils/issues"
   },
-  "homepage": "https://github.com/fivebillionmph/jcg-utils#readme"
+  "homepage": "https://github.com/fivebillionmph/jcg-utils#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
 }
