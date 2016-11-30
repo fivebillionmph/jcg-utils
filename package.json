@@ -1,6 +1,6 @@
 {
   "name": "jcg-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utility functions for node projects",
   "main": "jcg-utils.js",
   "scripts": {
