@@ -5,6 +5,6 @@ exports.deepObjectCopy = function(obj) {
 };
 
 exports.floatRegex = function(n) {
-    var regex = /^([0-9]*[.])?[0-9]*$/;
+    var regex = /^-?([0-9]*[.])?[0-9]*$/;
     return regex.test(n);
 };
